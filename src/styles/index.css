@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts.css';
+
+:root {
+  --paper-base:       #F2ECD8;
+  --paper-shadow:     #D4C5A3;
+  --paper-edge:       #C9B78A;
+  --ink-primary:      #1A1209;
+  --ink-secondary:    #3D2B0E;
+  --ink-faded:        #7A6448;
+  --ink-accent:       #8B1A1A;
+  --ink-blue:         #1A2B4A;
+  --stamp-red:        #C0392B;
+  --gold-foil:        #C9A84C;
+  --void-black:       #0A0704;
+  --phosphor-glow:    rgba(201, 168, 76, 0.15);
+}
+
+body {
+  background-color: var(--void-black); /* Will be overridden by paper */
+  color: var(--ink-primary);
+  font-family: 'IM Fell English', serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.special-elite {
+  font-family: 'Special Elite', monospace;
+}
+
+/* Base custom text-shadow for ink bleed */
+.ink-bleed {
+  text-shadow: 1px 1px 0 rgba(26,18,9,0.3), 2px 2px 0 rgba(26,18,9,0.1);
+}
+
+/* Custom scrollbar to look minimal */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--void-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ink-faded);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-secondary);
+}
+
+/* Hide default cursor to use custom quill */
+body {
+  cursor: none;
+}
+a, button {
+  cursor: none;
+}
