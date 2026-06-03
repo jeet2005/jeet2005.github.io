@@ -35,17 +35,17 @@ export default function Chapter3Projects() {
   }, []);
 
   return (
-    <section className="relative w-full min-h-screen py-24 flex flex-col bg-[#8B5A2B]/10">
-      <div className="text-center mb-16 relative z-10">
-        <h2 className="text-5xl playfair ink-bleed mb-4">The Chronicles</h2>
+    <section className="relative w-full min-h-screen py-16 md:py-24 flex flex-col bg-[#8B5A2B]/10">
+      <div className="text-center mb-10 md:mb-16 relative z-10">
+        <h2 className="text-4xl md:text-5xl playfair ink-bleed mb-4">The Chronicles</h2>
         <p className="special-elite text-ink-secondary">CASE FILES & MANUSCRIPTS</p>
       </div>
 
-      <div ref={containerRef} className="flex-1 w-full max-w-6xl mx-auto px-6 relative z-10 flex flex-wrap justify-center gap-8 pb-20">
+      <div ref={containerRef} className="flex-1 w-full max-w-6xl mx-auto px-4 md:px-6 relative z-10 flex flex-wrap justify-center gap-6 md:gap-8 pb-20">
         {PROJECTS.map((project, i) => (
           <div 
             key={project.id}
-            className="project-card relative w-80 bg-paper-base border border-paper-edge p-5 flex flex-col shadow-md hover:shadow-xl transition-shadow duration-300 group"
+            className="project-card relative w-full sm:w-80 bg-paper-base border border-paper-edge p-5 flex flex-col shadow-md hover:shadow-xl transition-shadow duration-300 group"
           >
             {/* Pin */}
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-2xl z-20 transform -rotate-12 group-hover:rotate-12 transition-transform drop-shadow-sm">

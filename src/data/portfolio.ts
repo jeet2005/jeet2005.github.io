@@ -82,7 +82,7 @@ export const PROJECTS = [
     tagline: "Web App Design & Development Studio",
     description: "Co-founded Softwisp-Atlas, building scalable web applications and design systems. Working on TypeScript-first codebases with modern frontend architecture.",
     stack: ["TypeScript", "React", "Tailwind CSS"],
-    links: { github: "https://github.com/Softwisp-Atlas" },
+    links: { live: "https://softwispatlas.in", github: "https://github.com/Softwisp-Atlas" },
     stars: 0,
     forks: 0,
     color: "#2B1A4A",

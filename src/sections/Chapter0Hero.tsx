@@ -92,7 +92,7 @@ export default function Chapter0Hero() {
         
         <h1 
           ref={nameRef}
-          className="text-7xl md:text-8xl lg:text-[120px] playfair ink-bleed uppercase mb-8 font-bold tracking-tight"
+          className="text-5xl sm:text-6xl md:text-8xl lg:text-[120px] playfair ink-bleed uppercase mb-8 font-bold tracking-tight"
         >
           {JEET.name}
         </h1>

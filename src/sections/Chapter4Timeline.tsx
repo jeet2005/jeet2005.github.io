@@ -109,9 +109,9 @@ export default function Chapter4Timeline() {
   }, []);
 
   return (
-    <section ref={containerRef} className="relative w-full min-h-screen py-24 bg-transparent overflow-hidden">
-      <div className="text-center mb-24 relative z-10">
-        <h2 className="text-5xl playfair ink-bleed mb-4">The Journey</h2>
+    <section ref={containerRef} className="relative w-full min-h-screen py-16 md:py-24 bg-transparent overflow-hidden">
+      <div className="text-center mb-16 md:mb-24 relative z-10">
+        <h2 className="text-4xl md:text-5xl playfair ink-bleed mb-4">The Journey</h2>
         <p className="special-elite text-ink-secondary">TIMELINE OF EVENTS</p>
       </div>
 
@@ -152,15 +152,15 @@ export default function Chapter4Timeline() {
                 className={`timeline-entry relative flex items-center w-full mb-32 ${isLeft ? 'justify-start entry-left' : isRight ? 'justify-end entry-right' : 'justify-center entry-center'}`}
               >
                 {!isCenter && (
-                  <div className={`w-1/2 flex ${isLeft ? 'justify-end pr-16' : 'justify-start pl-16'}`}>
+                  <div className={`w-1/2 flex ${isLeft ? 'justify-end pr-4 md:pr-16' : 'justify-start pl-4 md:pl-16'}`}>
                     
                     {/* Connecting line (SVG) */}
-                    <svg className={`absolute top-1/2 -translate-y-1/2 w-16 h-8 ${isLeft ? 'right-1/2' : 'left-1/2'}`} viewBox="0 0 100 20" preserveAspectRatio="none">
+                    <svg className={`absolute hidden md:block top-1/2 -translate-y-1/2 w-16 h-8 ${isLeft ? 'right-1/2' : 'left-1/2'}`} viewBox="0 0 100 20" preserveAspectRatio="none">
                       <path d={isLeft ? "M100 10 Q 50 20, 0 10" : "M0 10 Q 50 0, 100 10"} fill="none" stroke="var(--ink-faded)" strokeWidth="1.5" strokeDasharray="4 4" />
                     </svg>
 
                     {/* Entry Card */}
-                    <div className={`relative bg-paper-base border border-ink-secondary p-4 max-w-xs w-full shadow-sm transform ${isLeft ? 'rotate-1' : '-rotate-1'}`}>
+                    <div className={`relative bg-paper-base border border-ink-secondary p-3 md:p-4 max-w-[150px] sm:max-w-[200px] md:max-w-xs w-full shadow-sm transform ${isLeft ? 'rotate-1' : '-rotate-1'}`}>
                       <div className="special-elite text-ink-accent font-bold mb-2 text-lg">
                         {item.year}
                       </div>

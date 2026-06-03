@@ -39,9 +39,9 @@ export default function Chapter2Skills() {
   );
 
   return (
-    <section className="relative w-full py-24 flex flex-col justify-center min-h-[60vh]">
-      <div className="text-center mb-16 mt-8">
-        <h2 className="text-5xl playfair ink-bleed mb-4">The Arsenal</h2>
+    <section className="relative w-full py-16 md:py-24 flex flex-col justify-center min-h-[60vh]">
+      <div className="text-center mb-10 md:mb-16 mt-8">
+        <h2 className="text-4xl md:text-5xl playfair ink-bleed mb-4">The Arsenal</h2>
         <p className="special-elite text-ink-secondary">TOOLS OF THE CRAFT</p>
       </div>
 

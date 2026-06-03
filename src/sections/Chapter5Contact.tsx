@@ -26,7 +26,7 @@ export default function Chapter5Contact() {
   }, []);
 
   return (
-    <section className="relative w-full min-h-screen py-32 flex flex-col items-center justify-center bg-transparent">
+    <section className="relative w-full min-h-screen py-16 md:py-32 flex flex-col items-center justify-center bg-transparent">
       {/* Heavy Vignette */}
       <div className="absolute inset-0 pointer-events-none shadow-[inset_0_0_200px_rgba(0,0,0,0.95)] mix-blend-multiply z-10" />
       
@@ -52,7 +52,7 @@ export default function Chapter5Contact() {
           <circle cx="50" cy="10" r="4" fill="currentColor" />
         </svg>
 
-        <h2 className="text-5xl md:text-6xl playfair ink-bleed mb-6">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl playfair ink-bleed mb-6">
           Let's write the<br/>next chapter.
         </h2>
         
@@ -96,7 +96,7 @@ export default function Chapter5Contact() {
             <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-[#8B1A1A] text-paper-base flex items-center justify-center rotate-12 shadow-sm text-xs font-serif italic border border-[#5E1010]">
               J
             </div>
-            <span className="special-elite text-xl text-ink-primary tracking-wider">
+            <span className="special-elite text-sm sm:text-base md:text-xl text-ink-primary tracking-wider break-all">
               jeetsavaliya1908@gmail.com
             </span>
           </a>
