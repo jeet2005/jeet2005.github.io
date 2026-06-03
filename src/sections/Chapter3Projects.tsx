@@ -43,9 +43,12 @@ export default function Chapter3Projects() {
 
       <div ref={containerRef} className="flex-1 w-full max-w-6xl mx-auto px-4 md:px-6 relative z-10 flex flex-wrap justify-center gap-6 md:gap-8 pb-20">
         {PROJECTS.map((project, i) => (
-          <div 
+          <a 
+            href={project.links.live || project.links.github}
+            target="_blank" 
+            rel="noreferrer"
             key={project.id}
-            className="project-card relative w-full sm:w-80 bg-paper-base border border-paper-edge p-5 flex flex-col shadow-md hover:shadow-xl transition-shadow duration-300 group"
+            className="project-card relative w-full sm:w-80 bg-paper-base border border-paper-edge p-5 flex flex-col shadow-md hover:shadow-xl transition-shadow duration-300 group block cursor-pointer"
           >
             {/* Pin */}
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-2xl z-20 transform -rotate-12 group-hover:rotate-12 transition-transform drop-shadow-sm">
@@ -91,21 +94,21 @@ export default function Chapter3Projects() {
               {project.stack.length > 4 && <span className="special-elite text-[10px] text-ink-faded self-center">+{project.stack.length - 4}</span>}
             </div>
             
-            <div className="flex justify-between items-center border-t border-ink-faded pt-3">
+            <div className="flex justify-between items-center border-t border-ink-faded pt-3 mt-auto">
               {project.links.live ? (
-                <a href={project.links.live} target="_blank" rel="noreferrer" className="special-elite text-xs text-ink-primary hover:text-ink-accent transition-colors underline decoration-wavy decoration-ink-faded underline-offset-4">
+                <span className="special-elite text-xs text-ink-primary group-hover:text-ink-accent transition-colors underline decoration-wavy decoration-ink-faded underline-offset-4">
                   [VIEW PROJECT]
-                </a>
+                </span>
               ) : (
-                <a href={project.links.github} target="_blank" rel="noreferrer" className="special-elite text-xs text-ink-primary hover:text-ink-accent transition-colors underline decoration-wavy decoration-ink-faded underline-offset-4">
+                <span className="special-elite text-xs text-ink-primary group-hover:text-ink-accent transition-colors underline decoration-wavy decoration-ink-faded underline-offset-4">
                   [GITHUB]
-                </a>
+                </span>
               )}
               {project.stars > 0 && (
                 <span className="special-elite text-xs text-ink-secondary">⭐ {project.stars}</span>
               )}
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>

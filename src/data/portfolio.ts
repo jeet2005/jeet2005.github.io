@@ -78,7 +78,7 @@ export const PROJECTS = [
     id: "softwisp-atlas",
     title: "Softwisp Atlas",
     classification: "ORGANIZATION",
-    status: "ACTIVE",
+    status: "LIVE",
     tagline: "Web App Design & Development Studio",
     description: "Co-founded Softwisp-Atlas, building scalable web applications and design systems. Working on TypeScript-first codebases with modern frontend architecture.",
     stack: ["TypeScript", "React", "Tailwind CSS"],
