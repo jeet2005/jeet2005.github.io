@@ -5,8 +5,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 const TIMELINE_DATA = [
   {
     id: 1,
-    year: '2023 →',
-    title: 'B.Tech Computer Science',
+    year: '2025 →',
+    title: 'BE Computer Science',
     type: 'education',
     align: 'left',
     stamp: '',
