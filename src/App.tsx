@@ -65,15 +65,8 @@ export default function App() {
     window.addEventListener('mouseover', handleMouseOver);
 
     // Scroll Boundary logic
-    let lastScrollY = 0;
     const handleScroll = (e: any) => {
       ScrollTrigger.update();
-      // Very basic implementation: play a rustle sound every 1000px scrolled or so
-      // to avoid spamming the audio engine.
-      if (Math.abs(e.scroll - lastScrollY) > 800) {
-        audioManager.playScroll();
-        lastScrollY = e.scroll;
-      }
     };
     lenis.on('scroll', handleScroll);
 

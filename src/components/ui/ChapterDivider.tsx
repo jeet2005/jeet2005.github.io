@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { audioManager } from '../../store/AudioManager';
 
 interface ChapterDividerProps {
   chapterNumber: number;
@@ -35,13 +36,17 @@ export default function ChapterDivider({ chapterNumber }: ChapterDividerProps) {
       trigger: path,
       start: "top 80%",
       onEnter: () => {
+        audioManager.playScroll();
         gsap.to(path, {
           strokeDashoffset: 0,
           duration: 1.2,
           ease: "power2.out"
         });
       },
-      once: true
+      onEnterBack: () => {
+        audioManager.playScroll();
+      },
+      once: false
     });
   }, []);
 

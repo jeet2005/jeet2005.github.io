@@ -183,6 +183,9 @@ export default function TerminalOverlay() {
             <div>date      - Show system date and time</div>
             <div>neofetch  - Show system information</div>
             <div>ping      - Ping a website</div>
+            <div>github    - Open GitHub profile</div>
+            <div>linkedin  - Open LinkedIn profile</div>
+            <div>weather   - Check local weather</div>
             <div className="text-pink-400 mt-2 mb-1">--- Fun ---</div>
             <div>joke      - Hear a programming joke</div>
             <div>cowsay    - The cow says...</div>
@@ -278,6 +281,24 @@ export default function TerminalOverlay() {
         break;
       case 'neofetch':
         output = <pre className="text-green-400 font-mono text-xs md:text-sm">{NEOFETCH_ART}</pre>;
+        break;
+      case 'weather':
+        output = (
+          <div className="text-yellow-400">
+            [Ahmedabad, Gujarat, India]<br/>
+            Condition: Sunny & Extremely Hot (Standard)<br/>
+            Temp: 42°C (107°F)<br/>
+            Forecast: 100% chance of shipping code.
+          </div>
+        );
+        break;
+      case 'github':
+        window.open('https://github.com/jeet2005', '_blank');
+        output = <div>Opening GitHub...</div>;
+        break;
+      case 'linkedin':
+        window.open('https://www.linkedin.com/in/jeetpatel1908/', '_blank');
+        output = <div>Opening LinkedIn...</div>;
         break;
       case 'joke':
         output = <div className="text-yellow-400">{PROGRAMMING_JOKES[Math.floor(Math.random() * PROGRAMMING_JOKES.length)]}</div>;

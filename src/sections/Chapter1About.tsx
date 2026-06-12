@@ -97,7 +97,7 @@ export default function Chapter1About() {
 
           {/* Stats */}
           <div className="special-elite text-sm tracking-widest text-ink-secondary text-center space-y-2 mb-4">
-            <p>AGE: 20 YRS | STATUS: BUILDING CRAZZYYY</p>
+            <p>AGE: 20 YRS | STATUS: ARCHITECTING SYSTEMS</p>
             <p>LOCATION: GUJARAT</p>
           </div>
 
