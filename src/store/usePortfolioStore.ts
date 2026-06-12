@@ -12,7 +12,7 @@ interface PortfolioState {
 }
 
 export const usePortfolioStore = create<PortfolioState>((set) => ({
-  soundEnabled: false,
+  soundEnabled: true,
   setSoundEnabled: (enabled) => set({ soundEnabled: enabled }),
   isLoading: true,
   setIsLoading: (loading) => set({ isLoading: loading }),
