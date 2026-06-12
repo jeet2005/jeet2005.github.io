@@ -104,7 +104,7 @@ export default function Chapter1About() {
           <LiveStats />
 
           {/* ORCID Badge */}
-          <div className="absolute bottom-0 left-0 bg-paper-base border border-ink-faded p-3 rounded shadow-sm flex flex-col">
+          <div className="mt-4 bg-paper-base border border-ink-faded p-3 rounded shadow-sm flex flex-col">
             <span className="special-elite text-[10px] text-ink-faded mb-1 uppercase">Library Catalog / ORCID</span>
             <span className="special-elite text-sm font-bold text-ink-primary">{JEET.orcid}</span>
           </div>

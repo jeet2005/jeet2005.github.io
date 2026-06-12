@@ -161,14 +161,14 @@ export const RESEARCH_POSTERS = [
     title: "Explainable MRI Disease Prediction : WHY Did AI Say This?",
     description: "Deep learning has shown strong performance in medical image classification, yet clinical adoption remains constrained by a lack of interpretability — clinicians cannot verify why a model reached a given diagnosis. This study presents an explainable AI pipeline for brain tumor classification from MRI scans, combining a custom CNN with Grad-CAM [1] to bridge the gap between prediction accuracy and clinical trust. Grad-CAM heatmaps overlay directly on each MRI scan, highlighting the spatial regions that drove the model's decision. This work demonstrates that accuracy and interpretability are not mutually exclusive [5, 6].",
     fileUrl: "/posters/explainable_mri_poster.pdf",
-    previewImage: "/posters/explainable_mri_preview.png", // placeholder if they don't have one
+    previewImage: "/posters/explainable_mri_poster.png", // placeholder if they don't have one
     year: "2026",
   },
   {
     id: "inference-compute",
     title: "Inference-Time Compute Scaling: Predicting When Longer Thinking Actually Helps",
     description: "Large language models increasingly support variable inference-time compute budgets, yet practitioners lack a principled method to predict whether a larger budget will improve output quality for a given input. We present an empirical investigation of inference-time compute scaling behaviour across five task categories on GPT-4o and Claude 3.5 Sonnet (300× primary range), with cross-model validation on Gemini 1.5 Pro and Mistral Large 2. Task type is a strong predictor: reasoning tasks scale log-linearly while retrieval and creative tasks plateau sharply. Our Task Complexity Score (TCS) predicts which inputs benefit from extended compute at 87% balanced accuracy, enabling a routing strategy that cuts token spend ~58% at a 0.2 pp accuracy cost.",
-    fileUrl: "/posters/inference_compute_poster.pdf",
+    fileUrl: "/posters/inference_compute_preview.pdf",
     previewImage: "/posters/inference_compute_preview.png", // placeholder
     year: "2026",
   }

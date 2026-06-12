@@ -21,7 +21,7 @@ export default function TerminalButton() {
       </svg>
       {/* Tooltip */}
       <div className="absolute right-14 bottom-2 bg-ink-primary text-paper-base text-xs py-1 px-2 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none special-elite">
-        NexoraOS Terminal
+        jeetOS Terminal
       </div>
     </button>
   );
