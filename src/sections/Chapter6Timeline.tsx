@@ -14,26 +14,26 @@ const TIMELINE_DATA = [
   },
   {
     id: 2,
-    year: '2024',
+    year: '2025',
+    title: 'Virtual Hand Controller',
+    type: 'project',
+    align: 'right',
+    stamp: 'OPEN SOURCE',
+    icon: ''
+  },
+  {
+    id: 3,
+    year: '2025',
     title: 'Softwisp-Atlas',
     type: 'work',
-    align: 'right',
+    align: 'left',
     stamp: 'CO-FOUNDER',
     image: '/softwisp.svg',
     imageClass: 'w-10 h-10'
   },
   {
-    id: 3,
-    year: '2024',
-    title: 'Virtual Hand Controller',
-    type: 'project',
-    align: 'left',
-    stamp: 'OPEN SOURCE',
-    icon: ''
-  },
-  {
     id: 4,
-    year: '2025',
+    year: '2026',
     title: 'Eye-X launched',
     type: 'project',
     align: 'right',
@@ -43,7 +43,7 @@ const TIMELINE_DATA = [
   },
   {
     id: 5,
-    year: '2025',
+    year: '2026',
     title: 'Nexora launched',
     type: 'project',
     align: 'left',
@@ -62,7 +62,7 @@ const TIMELINE_DATA = [
   }
 ];
 
-export default function Chapter4Timeline() {
+export default function Chapter6Timeline() {
   const containerRef = useRef<HTMLDivElement>(null);
   const lineRef = useRef<HTMLDivElement>(null);
   const quillRef = useRef<HTMLDivElement>(null);

@@ -3,7 +3,7 @@ import { JEET } from '../data/portfolio';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-export default function Chapter5Contact() {
+export default function Chapter7Contact() {
   const telegramRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {

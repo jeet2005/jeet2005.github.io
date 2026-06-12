@@ -7,6 +7,8 @@ interface PortfolioState {
   setIsLoading: (loading: boolean) => void;
   scrollProgress: number;
   setScrollProgress: (progress: number) => void;
+  isTerminalOpen: boolean;
+  setIsTerminalOpen: (isOpen: boolean) => void;
 }
 
 export const usePortfolioStore = create<PortfolioState>((set) => ({
@@ -16,4 +18,6 @@ export const usePortfolioStore = create<PortfolioState>((set) => ({
   setIsLoading: (loading) => set({ isLoading: loading }),
   scrollProgress: 0,
   setScrollProgress: (progress) => set({ scrollProgress: progress }),
+  isTerminalOpen: false,
+  setIsTerminalOpen: (isOpen) => set({ isTerminalOpen: isOpen }),
 }));

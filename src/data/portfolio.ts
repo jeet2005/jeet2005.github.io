@@ -111,3 +111,65 @@ export const SKILLS = [
   { name: "Three.js", icon: "tetrahedron-small", color: "#049EF4", level: 70 },
   { name: "GSAP", icon: "octahedron-small", color: "#88CE02", level: 72 },
 ]
+
+export const CERTIFICATES = [
+  {
+    id: "oci-devops-2025",
+    title: "Oracle Cloud Infrastructure 2025 Certified DevOps Professional",
+    issuer: "Oracle",
+    date: "Sep 2025",
+    credentialUrl: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=74F82ABD276DDF5559A10C4E0F669F44977E0AF211F44ADF7FFAB5703F9113EA",
+    logo: "/certs/oracle.svg",
+  },
+  {
+    id: "nasa-space-apps-2025",
+    title: "NASA International Space Apps Challenge 2025 — Galactic Problem Solver",
+    issuer: "NASA Space Apps",
+    date: "Oct 2025",
+    credentialUrl: "", 
+    logo: "/certs/nasa.svg",
+  },
+  {
+    id: "deloitte-forage-2025",
+    title: "Deloitte Australia – Technology Job Simulation",
+    issuer: "Forage",
+    date: "Aug 2025",
+    credentialUrl: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_urNyNfcW2XA5ysEh9_1755681480357_completion_certificate.pdf",
+    logo: "/certs/forage.svg",
+  },
+  {
+    id: "ibm-llm-intro-2025",
+    title: "Introduction to Large Language Models (MDL-568)",
+    issuer: "IBM",
+    date: "Apr 2025",
+    credentialUrl: "https://skills.yourlearning.ibm.com/certificate/share/3eb720ee5bewogICJsZWFybmVyQ05VTSIgOiAiNDU3MTQwNlJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIk1ETC01NjgiCn0eb6e322419-10",
+    logo: "/certs/ibm.svg",
+  },
+  {
+    id: "cisco-python-essentials-1",
+    title: "Python Essentials 1",
+    issuer: "Cisco Networking Academy",
+    date: "Apr 2025",
+    credentialUrl: "https://www.linkedin.com/in/jeetpatel1908/details/certifications/", 
+    logo: "/certs/cisco.svg",
+  },
+];
+
+export const RESEARCH_POSTERS = [
+  {
+    id: "explainable-mri",
+    title: "Explainable MRI Disease Prediction : WHY Did AI Say This?",
+    description: "Deep learning has shown strong performance in medical image classification, yet clinical adoption remains constrained by a lack of interpretability — clinicians cannot verify why a model reached a given diagnosis. This study presents an explainable AI pipeline for brain tumor classification from MRI scans, combining a custom CNN with Grad-CAM [1] to bridge the gap between prediction accuracy and clinical trust. Grad-CAM heatmaps overlay directly on each MRI scan, highlighting the spatial regions that drove the model's decision. This work demonstrates that accuracy and interpretability are not mutually exclusive [5, 6].",
+    fileUrl: "/posters/explainable_mri_poster.pdf",
+    previewImage: "/posters/explainable_mri_preview.png", // placeholder if they don't have one
+    year: "2026",
+  },
+  {
+    id: "inference-compute",
+    title: "Inference-Time Compute Scaling: Predicting When Longer Thinking Actually Helps",
+    description: "Large language models increasingly support variable inference-time compute budgets, yet practitioners lack a principled method to predict whether a larger budget will improve output quality for a given input. We present an empirical investigation of inference-time compute scaling behaviour across five task categories on GPT-4o and Claude 3.5 Sonnet (300× primary range), with cross-model validation on Gemini 1.5 Pro and Mistral Large 2. Task type is a strong predictor: reasoning tasks scale log-linearly while retrieval and creative tasks plateau sharply. Our Task Complexity Score (TCS) predicts which inputs benefit from extended compute at 87% balanced accuracy, enabling a routing strategy that cuts token spend ~58% at a 0.2 pp accuracy cost.",
+    fileUrl: "/posters/inference_compute_poster.pdf",
+    previewImage: "/posters/inference_compute_preview.png", // placeholder
+    year: "2026",
+  }
+];

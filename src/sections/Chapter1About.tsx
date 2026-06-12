@@ -4,6 +4,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { JEET } from '../data/portfolio';
 import { FlutterIcon, PythonIcon } from '../components/canvas/MiniIcons';
+import LiveStats from '../components/ui/LiveStats';
 
 export default function Chapter1About() {
   const containerRef = useRef<HTMLElement>(null);
@@ -95,10 +96,12 @@ export default function Chapter1About() {
           </div>
 
           {/* Stats */}
-          <div className="special-elite text-sm tracking-widest text-ink-secondary text-center space-y-2 mb-8">
+          <div className="special-elite text-sm tracking-widest text-ink-secondary text-center space-y-2 mb-4">
             <p>AGE: 20 YRS | STATUS: BUILDING CRAZZYYY</p>
             <p>LOCATION: GUJARAT</p>
           </div>
+
+          <LiveStats />
 
           {/* ORCID Badge */}
           <div className="absolute bottom-0 left-0 bg-paper-base border border-ink-faded p-3 rounded shadow-sm flex flex-col">
