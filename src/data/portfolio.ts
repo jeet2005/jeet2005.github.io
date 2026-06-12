@@ -126,7 +126,7 @@ export const CERTIFICATES = [
     title: "NASA International Space Apps Challenge 2025 — Galactic Problem Solver",
     issuer: "NASA Space Apps",
     date: "Oct 2025",
-    credentialUrl: "", 
+    credentialUrl: "/images/certificate_jeet1908_2025__n_a_s_a__space__apps__challenge.jpeg", 
     logo: "/certs/nasa.svg",
   },
   {

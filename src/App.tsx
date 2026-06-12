@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Lenis from 'lenis';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// import { SplitText } from 'gsap/SplitText'; // Requires Club GreenSock, will mock if needed
 
 import { usePortfolioStore } from './store/usePortfolioStore';
 import { audioManager } from './store/AudioManager';
