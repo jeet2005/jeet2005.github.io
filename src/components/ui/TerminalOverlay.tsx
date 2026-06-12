@@ -351,7 +351,7 @@ export default function TerminalOverlay() {
     <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
       <div 
         ref={terminalRef}
-        className={\`w-full max-w-4xl h-[70vh] bg-[#0a0a0a] border border-[#333] shadow-[0_0_50px_rgba(0,0,0,0.8)] flex flex-col font-mono text-green-400 text-sm overflow-hidden rounded-md transition-all duration-300 \${isCrashed ? 'scale-[1.05] shadow-[0_0_100px_rgba(255,0,0,0.8)] border-red-500' : ''}\`}
+        className={`w-full max-w-4xl h-[70vh] bg-[#0a0a0a] border border-[#333] shadow-[0_0_50px_rgba(0,0,0,0.8)] flex flex-col font-mono text-green-400 text-sm overflow-hidden rounded-md transition-all duration-300 ${isCrashed ? 'scale-[1.05] shadow-[0_0_100px_rgba(255,0,0,0.8)] border-red-500' : ''}`}
         onClick={() => !isBooting && !isMatrixMode && !isCrashed && inputRef.current?.focus()}
       >
         {isMatrixMode ? (
@@ -368,13 +368,13 @@ export default function TerminalOverlay() {
         ) : (
           <>
             {/* Terminal Header */}
-            <div className={\`\${isCrashed ? 'bg-red-900' : 'bg-[#1a1a1a]'} border-b border-[#333] px-4 py-2 flex items-center justify-between select-none transition-colors\`}>
+            <div className={`${isCrashed ? 'bg-red-900' : 'bg-[#1a1a1a]'} border-b border-[#333] px-4 py-2 flex items-center justify-between select-none transition-colors`}>
               <div className="flex gap-2">
                 <div className="w-3 h-3 rounded-full bg-red-500 cursor-pointer" onClick={() => setIsTerminalOpen(false)} />
                 <div className="w-3 h-3 rounded-full bg-yellow-500" />
                 <div className="w-3 h-3 rounded-full bg-green-500" />
               </div>
-              <div className={\`text-xs tracking-widest \${isCrashed ? 'text-red-300 font-bold' : 'text-gray-400'}\`}>
+              <div className={`text-xs tracking-widest ${isCrashed ? 'text-red-300 font-bold' : 'text-gray-400'}`}>
                 {isCrashed ? 'SYSTEM FAILURE' : 'GUEST@JEET-OS:~'}
               </div>
               <div />
