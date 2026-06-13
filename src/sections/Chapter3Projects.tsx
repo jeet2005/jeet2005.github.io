@@ -35,7 +35,7 @@ export default function Chapter3Projects() {
   }, []);
 
   return (
-    <section className="relative w-full min-h-screen py-16 md:py-24 flex flex-col bg-[#8B5A2B]/10">
+    <section id="projects" className="relative w-full min-h-screen py-16 md:py-24 flex flex-col bg-[#8B5A2B]/10">
       <div className="text-center mb-10 md:mb-16 relative z-10">
         <h2 className="text-4xl md:text-5xl playfair ink-bleed mb-4">The Chronicles</h2>
         <p className="special-elite text-ink-secondary">CASE FILES & MANUSCRIPTS</p>

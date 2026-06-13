@@ -34,7 +34,7 @@ export default function Chapter5Research() {
   }, []);
 
   return (
-    <section className="relative w-full min-h-screen py-16 md:py-32 flex flex-col bg-paper-base overflow-hidden">
+    <section id="research" className="relative w-full min-h-screen py-16 md:py-32 flex flex-col bg-paper-base overflow-hidden">
       {/* Background texture / styling */}
       <div className="absolute inset-0 pointer-events-none opacity-5 bg-[radial-gradient(circle_at_center,_var(--ink-primary)_1px,_transparent_1px)] bg-[size:24px_24px]" />
       

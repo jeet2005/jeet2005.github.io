@@ -109,7 +109,7 @@ export default function Chapter6Timeline() {
   }, []);
 
   return (
-    <section ref={containerRef} className="relative w-full min-h-screen py-16 md:py-24 bg-transparent overflow-hidden">
+    <section id="timeline" ref={containerRef} className="relative w-full min-h-screen py-16 md:py-24 bg-transparent overflow-hidden">
       <div className="text-center mb-16 md:mb-24 relative z-10">
         <h2 className="text-4xl md:text-5xl playfair ink-bleed mb-4">The Journey</h2>
         <p className="special-elite text-ink-secondary">TIMELINE OF EVENTS</p>

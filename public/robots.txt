@@ -1,0 +1,5 @@
+# jeet2005.github.io
+User-agent: *
+Allow: /
+
+Sitemap: https://jeet2005.github.io/sitemap.xml

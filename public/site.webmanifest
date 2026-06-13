@@ -1,0 +1,17 @@
+{
+  "name": "Jeet Patel Portfolio",
+  "short_name": "Jeet Patel",
+  "description": "Portfolio of Jeet Patel, also known as Jeet Savaliya - AI Engineer and Flutter Developer in Ahmedabad, India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0704",
+  "theme_color": "#0A0704",
+  "icons": [
+    {
+      "src": "/portrait.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

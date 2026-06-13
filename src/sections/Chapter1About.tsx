@@ -63,7 +63,7 @@ export default function Chapter1About() {
   }, []);
 
   return (
-    <section ref={containerRef} className="relative w-full min-h-screen py-16 md:py-24 -rotate-[0.5deg]">
+    <section id="about" ref={containerRef} className="relative w-full min-h-screen py-16 md:py-24 -rotate-[0.5deg]">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 px-4 md:px-6">
         
         {/* LEFT PAGE */}

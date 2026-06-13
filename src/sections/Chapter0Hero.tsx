@@ -75,7 +75,7 @@ export default function Chapter0Hero() {
   }, [isLoading]);
 
   return (
-    <section ref={containerRef} className="relative w-full h-screen flex flex-col items-center justify-center pt-20">
+    <section id="home" ref={containerRef} className="relative w-full h-screen flex flex-col items-center justify-center pt-20">
       {/* Background Watermark */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none select-none opacity-[0.03] z-[-1] flex flex-wrap content-start">
         {Array.from({ length: 150 }).map((_, i) => (

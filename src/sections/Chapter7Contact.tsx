@@ -26,7 +26,7 @@ export default function Chapter7Contact() {
   }, []);
 
   return (
-    <section className="relative w-full min-h-screen py-16 md:py-32 flex flex-col items-center justify-center bg-transparent">
+    <section id="contact" className="relative w-full min-h-screen py-16 md:py-32 flex flex-col items-center justify-center bg-transparent">
       {/* Heavy Vignette */}
       <div className="absolute inset-0 pointer-events-none shadow-[inset_0_0_200px_rgba(0,0,0,0.95)] mix-blend-multiply z-10" />
       
