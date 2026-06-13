@@ -23,7 +23,7 @@ class AudioManager {
 
     this.ambientSound = new Howl({
       src: ['/sounds/bg.mp3'], // Expected to be a low space/drone track
-      volume: 0.05,
+      volume: 0.5,
       loop: true,
     });
     
