@@ -1,9 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { Canvas } from '@react-three/fiber';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { JEET } from '../data/portfolio';
-import { FlutterIcon, PythonIcon } from '../components/canvas/MiniIcons';
 import LiveStats from '../components/ui/LiveStats';
 
 export default function Chapter1About() {

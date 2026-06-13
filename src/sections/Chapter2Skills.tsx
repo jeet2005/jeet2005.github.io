@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
-import SkillDesk from '../components/canvas/SkillDesk';
 import { SKILLS } from '../data/portfolio';
 
 export default function Chapter2Skills() {
