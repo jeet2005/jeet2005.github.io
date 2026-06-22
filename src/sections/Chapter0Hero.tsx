@@ -75,7 +75,7 @@ export default function Chapter0Hero() {
   }, [isLoading]);
 
   return (
-    <section id="home" ref={containerRef} className="relative w-full h-screen flex flex-col items-center justify-center pt-20">
+    <section id="home" ref={containerRef} className="relative w-full min-h-[100svh] flex flex-col items-center justify-center pt-20 pb-32">
       {/* Background Watermark */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none select-none opacity-[0.03] z-[-1] flex flex-wrap content-start">
         {Array.from({ length: 150 }).map((_, i) => (
@@ -105,13 +105,13 @@ export default function Chapter0Hero() {
           href="/Jeet_Patel_Resume.txt" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="px-6 py-3 border border-ink-primary text-ink-primary hover:bg-ink-primary hover:text-paper-base transition-colors special-elite tracking-widest text-sm uppercase mb-4"
+          className="px-6 py-3 border border-ink-primary text-ink-primary hover:bg-ink-primary hover:text-paper-base transition-colors special-elite tracking-widest text-sm uppercase relative z-50 pointer-events-auto"
         >
           View Resume
         </a>
       </div>
 
-      <div className="scroll-prompt opacity-0 translate-y-4 absolute bottom-12 flex flex-col items-center gap-2">
+      <div className="scroll-prompt opacity-0 translate-y-4 absolute bottom-12 flex flex-col items-center gap-2 pointer-events-none">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-6 h-6 animate-bounce text-ink-secondary">
           <path d="M12 5v14M19 12l-7 7-7-7" />
         </svg>
