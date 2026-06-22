@@ -12,7 +12,7 @@ const FILE_SYSTEM: Record<string, Record<string, string | null>> = {
     'projects': null,
     'certificates': null,
     'research': null,
-    'resume.txt': 'My resume is available at: /Jeet_Patel_Resume.txt (Click "View Resume" on the homepage!)',
+    'resume.pdf': 'My resume is available at: /Jeet%20Patel.pdf (Click "View Resume" on the homepage!)',
     'secret.txt': 'SYSTEM OVERRIDE: Nice try, but the real secrets are in the source code.',
     '.env': 'OPENAI_API_KEY=sk-nice-try-recruiters\nDB_PASS=iloveflutter'
   },

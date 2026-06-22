@@ -102,7 +102,7 @@ export default function Chapter0Hero() {
         </div>
 
         <a 
-          href="/Jeet_Patel_Resume.txt" 
+          href="/Jeet%20Patel.pdf" 
           target="_blank" 
           rel="noopener noreferrer"
           className="px-6 py-3 border border-ink-primary text-ink-primary hover:bg-ink-primary hover:text-paper-base transition-colors special-elite tracking-widest text-sm uppercase relative z-50 pointer-events-auto"
