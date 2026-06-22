@@ -97,12 +97,13 @@ export default function App() {
       
       <LoadingScreen />
       <TerminalOverlay />
-      <TerminalButton />
-      <ResumeButton />
-      <AudioToggle />
       
       {!isLoading && (
-        <div className="relative z-10 w-full">
+        <>
+          <TerminalButton />
+          <ResumeButton />
+          <AudioToggle />
+          <div className="relative z-10 w-full">
           <Chapter0Hero />
           
           <ChapterDivider chapterNumber={1} />
@@ -133,6 +134,7 @@ export default function App() {
           
           <Chapter7Contact />
         </div>
+        </>
       )}
     </div>
   );
