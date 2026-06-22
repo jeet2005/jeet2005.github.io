@@ -175,7 +175,7 @@ export default function TerminalOverlay() {
             <div>ls [-a]   - List directory contents</div>
             <div>cd        - Change directory</div>
             <div>pwd       - Print working directory</div>
-            <div>cat       - Read file content</div>
+            <div>cat       - Read file content (e.g. cat resume.pdf)</div>
             <div>clear     - Clear terminal history</div>
             <div>exit      - Close terminal</div>
             <div className="text-pink-400 mt-2 mb-1">--- Advanced ---</div>
@@ -402,7 +402,7 @@ export default function TerminalOverlay() {
             </div>
 
             {/* Terminal Body */}
-            <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-2">
+            <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-2" data-lenis-prevent="true">
               {history.map((item, i) => (
                 <div key={i}>
                   {item.type === 'command' && (
