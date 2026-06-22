@@ -11,6 +11,7 @@ import ChapterDivider from './components/ui/ChapterDivider';
 import LoadingScreen from './components/ui/LoadingScreen';
 import TerminalOverlay from './components/ui/TerminalOverlay';
 import TerminalButton from './components/ui/TerminalButton';
+import ResumeButton from './components/ui/ResumeButton';
 import AudioToggle from './components/ui/AudioToggle';
 import Chapter0Hero from './sections/Chapter0Hero';
 import Chapter1About from './sections/Chapter1About';
@@ -97,6 +98,7 @@ export default function App() {
       <LoadingScreen />
       <TerminalOverlay />
       <TerminalButton />
+      <ResumeButton />
       <AudioToggle />
       
       {!isLoading && (

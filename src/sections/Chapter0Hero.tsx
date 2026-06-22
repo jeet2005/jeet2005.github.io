@@ -101,14 +101,6 @@ export default function Chapter0Hero() {
           <p ref={subtitleRef} className="special-elite text-lg md:text-xl text-ink-secondary"></p>
         </div>
 
-        <a 
-          href="/Jeet%20Patel.pdf" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="px-6 py-3 border border-ink-primary text-ink-primary hover:bg-ink-primary hover:text-paper-base transition-colors special-elite tracking-widest text-sm uppercase relative z-50 pointer-events-auto"
-        >
-          View Resume
-        </a>
       </div>
 
       <div className="scroll-prompt opacity-0 translate-y-4 absolute bottom-12 flex flex-col items-center gap-2 pointer-events-none">
