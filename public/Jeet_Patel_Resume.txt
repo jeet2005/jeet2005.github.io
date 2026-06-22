@@ -1,0 +1,57 @@
+Jeet Patel
+AI/ML & BACKEND ENGINEER
+AI/ML & Backend Engineer who has shipped a live AutoML platform, an edge-AI attendance system, and production APIs. Seeking an AI/ML or Backend Engineering internship.
+
+Location: Ahmedabad, India
+Phone: +91 93133 33972
+Email: jeetsavaliya1908@gmail.com
+LinkedIn: linkedin.com/in/jeetpatel1908
+GitHub: github.com/jeet2005
+Website: jeet2005.github.io
+ORCID: orcid.org/0009-0008-8210-8280
+
+Education
+L.J. Institute of Engg. & Tech. (LJIET) | 2025 – 2028
+B.E., Computer Engineering, Ahmedabad, Gujarat
+
+Darshan University | 2022 – 2025
+Diploma, Computer Science, Rajkot | CGPA: 9.19
+
+Skills
+Languages: Python, TypeScript, JavaScript, SQL
+AI/ML: Scikit-Learn, XGBoost, LightGBM, TensorFlow, PyTorch, Pandas, NumPy, OpenCV
+Backend/APIs: FastAPI, REST, WebSocket, JWT, Pydantic
+Databases: MongoDB, Firebase, Supabase, MSSQL
+Frontend: React, Tailwind CSS, Three.js
+Tools: Git, Docker, Postman, Linux, Netlify, Render, CI/CD
+
+Work Experience
+Udanix.com | Backend & API Developer (Freelance) – Remote Aug 2025 – Feb 2026
+– Built a booking-system backend with FastAPI and REST APIs, implementing availability logic and slot-conflict prevention for a travel platform, backed by Firebase/Supabase.
+– Integrated 3 third-party REST APIs (scheduling, payments, notifications) with retry logic; documented endpoints via OpenAPI/Swagger.
+
+D’Furn India | ERP Developer – Ahmedabad, India Feb 2026 – May 2026
+– Built inventory, order-management, and reporting modules using React on the frontend and MSSQL-backed backend logic for an internal ERP, replacing manual spreadsheet workflows.
+– Translated business requirements into MSSQL schemas and backend logic, working through review cycles with non-technical stakeholders.
+
+Projects
+Nexora | Python, FastAPI, React, Scikit-Learn, XGBoost | Live · GitHub 2025 – 2026
+– AutoML engine that ingests a raw CSV and autonomously runs type inference, imputation, and encoding – benchmarking 256+ models with a live WebSocket leaderboard.
+– Deployed end-to-end (FastAPI/Render, React/Netlify, MongoDB Atlas) with API-key prediction endpoints, batch inference, and feature-drift detection.
+
+Eye-X | Python, FastAPI, MongoDB, WebRTC, MediaPipe | GitHub 2025
+– Designed a distributed real-time attendance architecture using MediaPipe face/head-pose detection running on-device across multiple entry points.
+– Built a WebRTC video pipeline streaming structured JSON events to a FastAPI backend, storing analytics in MongoDB.
+
+Virtual Hand Controller | Python, MediaPipe, OpenCV, PyAutoGUI | GitHub 2025
+– Built a zero-hardware gesture interface: MediaPipe’s 21-landmark hand graph drives mouse/keyboard events via PyAutoGUI in real time.
+
+Trekverse | Flutter, Dart, Firebase | GitHub 2024 – 2025
+– Built a cross-platform Flutter trekking app where users browse, wishlist, and rate packages from verified brands.
+– Implemented an admin panel and Firebase Auth-based authentication with Provider state management.
+
+Certifications & Awards
+Oracle Cloud Infrastructure 2025 Certified DevOps Professional – Oracle (Sep 2025)
+NASA International Space Apps Challenge 2025 – Galactic Problem Solver (Oct 2025)
+Deloitte Australia – Technology Job Simulation – Forage (Aug 2025)
+Introduction to Large Language Models (MDL-568) – IBM SkillsBuild (Apr 2025)
